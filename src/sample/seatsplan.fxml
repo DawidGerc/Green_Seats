@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<BorderPane prefHeight="200.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SeatsController">
+   <center>
+      <GridPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+
+        </rowConstraints>
+         <children>
+             <Button fx:id="4_1" mnemonicParsing="false" onAction="#showTable" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+             <Button fx:id="4_2" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+             <Button fx:id="4_3" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+             <Button fx:id="4_4" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+             <Button fx:id="4_5" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+             <Button fx:id="4_6" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+             <Button fx:id="4_7" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+             <Button fx:id="4_8" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+
+             <Button fx:id="5_1" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+             <Button fx:id="5_2" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+             <Button fx:id="5_3" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+             <Button fx:id="5_4" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+             <Button fx:id="5_5" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+             <Button fx:id="5_6" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+             <Button fx:id="5_7" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+
+
+             <Button fx:id="6_1" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+             <Button fx:id="6_2" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+             <Button fx:id="6_3" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+             <Button fx:id="6_4" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+             <Button fx:id="6_5" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+             <Button fx:id="6_6" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+
+             <Button fx:id="7_1" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+             <Button fx:id="7_2" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+             <Button fx:id="7_3" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+             <Button fx:id="7_4" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+             <Button fx:id="7_5" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+             <Button fx:id="7_6" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+             <Button fx:id="7_7" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+
+             <Button fx:id="8_1" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+             <Button fx:id="8_2" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+             <Button fx:id="8_3" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+             <Button fx:id="8_4" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+             <Button fx:id="8_5" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+             <Button fx:id="8_6" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+             <Button fx:id="8_7" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+
+             <Button fx:id="9_1" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+             <Button fx:id="9_2" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+             <Button fx:id="9_3" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+             <Button fx:id="9_4" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+             <Button fx:id="9_5" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="9" />
+             <Button fx:id="9_6" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="6" GridPane.rowIndex="9" />
+             <Button fx:id="9_7" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="7" GridPane.rowIndex="9" />
+
+             <Button fx:id="10_1" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+             <Button fx:id="10_2" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="10" />
+             <Button fx:id="10_3" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="10" />
+             <Button fx:id="10_4" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="10" />
+             <Button fx:id="10_5" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="10" />
+             <Button fx:id="10_6" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="6" GridPane.rowIndex="10" />
+             <Button fx:id="10_7" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="7" GridPane.rowIndex="10" />
+
+
+             <Button fx:id="11_1" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="12" />
+             <Button fx:id="11_2" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="12" />
+             <Button fx:id="11_3" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="12" />
+             <Button fx:id="11_4" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="12" />
+             <Button fx:id="11_5" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="12" />
+             <Button fx:id="11_6" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="6" GridPane.rowIndex="12" />
+             <Button fx:id="11_7" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="7" GridPane.rowIndex="12" />
+
+             <Button fx:id="12_1" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="13" />
+             <Button fx:id="12_2" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="13" />
+             <Button fx:id="12_3" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="13" />
+             <Button fx:id="12_4" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="13" />
+             <Button fx:id="12_5" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="13" />
+             <Button fx:id="12_6" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="6" GridPane.rowIndex="13" />
+
+             <Button fx:id="13_1" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="15" />
+             <Button fx:id="13_2" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="15" />
+             <Button fx:id="13_3" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="15" />
+             <Button fx:id="13_4" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="15" />
+             <Button fx:id="13_5" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="15" />
+             <Button fx:id="13_6" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="6" GridPane.rowIndex="15" />
+             <Button fx:id="13_7" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="7" GridPane.rowIndex="15" />
+
+             <Button fx:id="14_1" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="16" />
+             <Button fx:id="14_2" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="16" />
+             <Button fx:id="14_3" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="16" />
+             <Button fx:id="14_4" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="16" />
+             <Button fx:id="14_5" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="16" />
+             <Button fx:id="14_6" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="6" GridPane.rowIndex="16" />
+             <Button fx:id="14_7" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="7" GridPane.rowIndex="16" />
+
+             <Button fx:id="15_1" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="18" />
+             <Button fx:id="15_2" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="18" />
+             <Button fx:id="15_3" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="18" />
+             <Button fx:id="15_4" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="18" />
+             <Button fx:id="15_5" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="18" />
+             <Button fx:id="15_6" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="6" GridPane.rowIndex="18" />
+             <Button fx:id="15_7" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="7" GridPane.rowIndex="18" />
+
+             <Button fx:id="16_1" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="19" />
+             <Button fx:id="16_2" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="19" />
+             <Button fx:id="16_3" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="19" />
+             <Button fx:id="16_4" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="19" />
+             <Button fx:id="16_5" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="19" />
+             <Button fx:id="16_6" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="6" GridPane.rowIndex="19" />
+             <Button fx:id="16_7" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="7" GridPane.rowIndex="19" />
+
+             <Button fx:id="17_1" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="21" />
+             <Button fx:id="17_2" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="21" />
+             <Button fx:id="17_3" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="21" />
+             <Button fx:id="17_4" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="21" />
+             <Button fx:id="17_5" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="21" />
+             <Button fx:id="17_6" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="6" GridPane.rowIndex="21" />
+             <Button fx:id="17_7" mnemonicParsing="false" onAction="#handleButton" text="Button" GridPane.columnIndex="7" GridPane.rowIndex="21" />
+
+
+
+             <Label text="Seat 1" GridPane.columnIndex="1" />
+            <Label layoutX="64.0" layoutY="17.0" text="Seat 2" GridPane.columnIndex="2" />
+            <Label layoutX="10.0" layoutY="17.0" text="Seat 3" GridPane.columnIndex="3" />
+            <Label layoutX="10.0" layoutY="17.0" text="Seat 4" GridPane.columnIndex="4" />
+            <Label layoutX="10.0" layoutY="17.0" text="Seat 5" GridPane.columnIndex="5" />
+            <Label layoutX="64.0" layoutY="17.0" text="Seat 6" GridPane.columnIndex="6" />
+            <Label layoutX="335.0" layoutY="17.0" text="Seat 7" GridPane.columnIndex="7" />
+            <Label layoutX="390.0" layoutY="17.0" text="Seat 8" GridPane.columnIndex="8" />
+            <Label layoutX="10.0" layoutY="17.0" text="Seat 9" GridPane.columnIndex="9" />
+            <Label layoutX="500.0" layoutY="17.0" text="Row 4" GridPane.rowIndex="1" />
+            <Label layoutX="10.0" layoutY="17.0" text="Row 5" GridPane.rowIndex="3" />
+            <Label layoutX="10.0" layoutY="17.0" text="Row 6" GridPane.rowIndex="4" />
+            <Label layoutX="10.0" layoutY="17.0" text="Row 7" GridPane.rowIndex="6" />
+            <Label layoutX="10.0" layoutY="17.0" text="Row 8" GridPane.rowIndex="7" />
+            <Label layoutX="10.0" layoutY="17.0" text="Row 9" GridPane.rowIndex="9" />
+            <Label layoutX="10.0" layoutY="296.0" text="Row 10" GridPane.rowIndex="10" />
+            <Label layoutX="10.0" layoutY="260.0" text="Row 11" GridPane.rowIndex="12" />
+            <Label layoutX="10.0" layoutY="14.0" text="Row 12" GridPane.rowIndex="13" />
+            <Label layoutX="10.0" layoutY="299.0" text="Row 13" GridPane.rowIndex="15" />
+            <Label layoutX="10.0" layoutY="12.0" text="Row 14" GridPane.rowIndex="16" />
+            <Label layoutX="10.0" layoutY="266.0" text="Row 15" GridPane.rowIndex="18" />
+            <Label layoutX="10.0" layoutY="10.0" text="Row 16" GridPane.rowIndex="19" />
+            <Label layoutX="10.0" layoutY="10.0" text="Row 17" GridPane.rowIndex="21" />
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="9.0" left="10.0" top="10.0" />
+         </BorderPane.margin>
+      </GridPane>
+   </center>
+   <right>
+      <GridPane fx:id="label1" alignment="TOP_CENTER" prefHeight="336.0" prefWidth="257.0" BorderPane.alignment="CENTER">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="15.0" prefWidth="120.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+
+        </rowConstraints>
+         <BorderPane.margin>
+            <Insets bottom="70.0" top="70.0" />
+         </BorderPane.margin>
+
+          <children>
+             <Label layoutX="10.0" layoutY="9.0" text="7:00" GridPane.rowIndex="2" />
+             <Label layoutX="10.0" layoutY="9.0" text="7:30" GridPane.rowIndex="3" />
+             <Label layoutX="10.0" layoutY="9.0" text="8:00" GridPane.rowIndex="4" />
+             <Label layoutX="10.0" layoutY="9.0" text="8:30" GridPane.rowIndex="5" />
+             <Label layoutX="10.0" layoutY="9.0" text="9:00" GridPane.rowIndex="6" />
+             <Label layoutX="10.0" layoutY="9.0" text="9:30" GridPane.rowIndex="7" />
+             <Label layoutX="10.0" layoutY="9.0" text="10:00" GridPane.rowIndex="8" />
+             <Label layoutX="10.0" layoutY="9.0" text="10:30" GridPane.rowIndex="9" />
+             <Label layoutX="10.0" layoutY="9.0" text="11:00" GridPane.rowIndex="10" />
+             <Label layoutX="10.0" layoutY="9.0" text="11:30" GridPane.rowIndex="11" />
+             <Label layoutX="10.0" layoutY="9.0" text="12:00" GridPane.rowIndex="12" />
+             <Label layoutX="10.0" layoutY="9.0" text="12:30" GridPane.rowIndex="13" />
+             <Label layoutX="10.0" layoutY="9.0" text="13:00" GridPane.rowIndex="14" />
+             <Label layoutX="10.0" layoutY="9.0" text="13:30" GridPane.rowIndex="15" />
+             <Label layoutX="10.0" layoutY="9.0" text="14:00" GridPane.rowIndex="16" />
+             <Label layoutX="10.0" layoutY="9.0" text="14:30" GridPane.rowIndex="17" />
+             <Label layoutX="10.0" layoutY="9.0" text="15:00" GridPane.rowIndex="18" />
+             <Label layoutX="10.0" layoutY="9.0" text="15:30" GridPane.rowIndex="19" />
+             <Label layoutX="10.0" layoutY="9.0" text="16:00" GridPane.rowIndex="20" />
+             <Label layoutX="10.0" layoutY="9.0" text="16:30" GridPane.rowIndex="21" />
+             <Label layoutX="10.0" layoutY="9.0" text="17:00" GridPane.rowIndex="22" />
+             <Label layoutX="10.0" layoutY="9.0" text="17:30" GridPane.rowIndex="23" />
+             <Label layoutX="10.0" layoutY="9.0" text="18:00" GridPane.rowIndex="24" />
+             <Label layoutX="10.0" layoutY="9.0" text="18:30" GridPane.rowIndex="25" />
+             <Label layoutX="10.0" layoutY="9.0" text="19:00" GridPane.rowIndex="26" />
+             <Label layoutX="10.0" layoutY="9.0" text="19:30" GridPane.rowIndex="27" />
+             <Label layoutX="10.0" layoutY="9.0" text="20:00" GridPane.rowIndex="28" />
+             <Label layoutX="10.0" layoutY="9.0" text="20:30" GridPane.rowIndex="29" />
+             <Label layoutX="10.0" layoutY="9.0" text="21:00" GridPane.rowIndex="30" />
+             <Label layoutX="10.0" layoutY="9.0" text="21:30" GridPane.rowIndex="31" />
+             <Label layoutX="10.0" layoutY="9.0" text="22:00" GridPane.rowIndex="32" />
+             <Label layoutX="10.0" layoutY="9.0" text="22:30" GridPane.rowIndex="33" />
+            <Button fx:id="butMon" mnemonicParsing="false" onAction="#butDayMon" text="Mon" GridPane.columnIndex="1" />
+            <Button fx:id="butTue" mnemonicParsing="false" onAction="#butDayTue" text="Tue" GridPane.columnIndex="2" />
+            <Button fx:id="butWed" mnemonicParsing="false" onAction="#butDayWed" text="Wed" GridPane.columnIndex="3" />
+            <Button fx:id="butThu" mnemonicParsing="false" onAction="#butDayThu" text="Thu" GridPane.columnIndex="4" />
+            <Button fx:id="butFri" mnemonicParsing="false" onAction="#butDayFri" text="Fri" GridPane.columnIndex="5" />
+            <Button fx:id="butSat" mnemonicParsing="false" onAction="#butDaySat" text="Sat" GridPane.columnIndex="6" />
+            <Button fx:id="butSun" mnemonicParsing="false" onAction="#butDaySun" text="Sun" GridPane.columnIndex="7" />
+
+         </children>
+      </GridPane>
+   </right>
+   <top>
+       
+      <!--<GridPane prefHeight="25.0" prefWidth="110.0" BorderPane.alignment="TOP_RIGHT">-->
+         <!--<columnConstraints>-->
+            <!--<ColumnConstraints hgrow="SOMETIMES" maxWidth="418.0" minWidth="0.0" prefWidth="78.0" />-->
+            <!--<ColumnConstraints hgrow="SOMETIMES" maxWidth="607.0" minWidth="10.0" prefWidth="577.0" />-->
+         <!--</columnConstraints>-->
+         <!--<rowConstraints>-->
+            <!--<RowConstraints minHeight="0.0" vgrow="SOMETIMES" />-->
+         <!--</rowConstraints>-->
+         <!--<children>-->
+            <!--<Button alignment="CENTER_RIGHT" contentDisplay="RIGHT" mnemonicParsing="false" text="This week" />-->
+            <!--<Button alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Next week" GridPane.columnIndex="1" />-->
+         <!--</children>-->
+      <!--</GridPane>-->
+
+   </top>
+   <bottom>
+      <BorderPane BorderPane.alignment="CENTER">
+         <top>
+            <Button fx:id="Book" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#makeBook" text="Book" textAlignment="CENTER" BorderPane.alignment="TOP_RIGHT">
+               <BorderPane.margin>
+                  <Insets bottom="50.0" right="40.0" />
+               </BorderPane.margin>
+               <padding>
+                  <Insets bottom="10.0" right="20.0" />
+               </padding>
+            </Button>
+         </top>
+      </BorderPane>
+   </bottom>
+</BorderPane>
