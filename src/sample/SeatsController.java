@@ -2,6 +2,9 @@ package sample;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.event.Event;
+import java.awt.event.ActionListener;
+import java.beans.Visibility;
+
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.geometry.Insets;
@@ -12,6 +15,7 @@ import javafx.scene.control.Button;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
@@ -21,13 +25,28 @@ Main mejn = new Main();
 
 
     @FXML
-    public void handleButton2(ActionEvent event) {
-        Button button = (Button) event.getSource();
-        String id = button.getId();
+    public GridPane labelMain;
 
-        System.out.println(id);
-        System.out.println(mejn.seatOwner(id));
-    }
+    @FXML
+    public Button butMon;
+
+    @FXML
+    public Button butTue;
+
+    @FXML
+    public Button butWed;
+
+    @FXML
+    public Button butThu;
+
+    @FXML
+    public Button butFri;
+
+    @FXML
+    public Button butSat;
+
+    @FXML
+    public Button butSun;
 
     @FXML
 
@@ -37,7 +56,7 @@ Main mejn = new Main();
         int weeknu = 11;
         System.out.println(" ");
         System.out.println(mejn.shiftsinWEEK(id,weeknu));
-
+        labelMain.setVisible(true);
     }
 
     @FXML
@@ -46,46 +65,82 @@ Main mejn = new Main();
     }
 
     @FXML
-    public void butDayMon(ActionEvent event) {
-        //label1.setVisible(false);
-        Button button = (Button) event.getSource();
-        String id = button.getId();
-        //fx:id="butTue".setVisible(false);
-    }
-    @FXML
-    public void butDayTue(ActionEvent event) {
-        //label1.setVisible(false);
+    public void butDays(ActionEvent event) {
+            Button but = (Button) event.getSource();
+            String id = but.getId();
+
+        if (id.equals("butMon")){
+            butMon.setVisible(true);
+            butTue.setVisible(false);
+            butWed.setVisible(false);
+            butThu.setVisible(false);
+            butFri.setVisible(false);
+            butSat.setVisible(false);
+            butSun.setVisible(false);
+
+        }
+        if (id.equals("butTue")){
+            butMon.setVisible(false);
+            butTue.setVisible(true);
+            butWed.setVisible(false);
+            butThu.setVisible(false);
+            butFri.setVisible(false);
+            butSat.setVisible(false);
+            butSun.setVisible(false);
+
+        }
+        if (id.equals("butWed")){
+            butMon.setVisible(false);
+            butTue.setVisible(false);
+            butWed.setVisible(true);
+            butThu.setVisible(false);
+            butFri.setVisible(false);
+            butSat.setVisible(false);
+            butSun.setVisible(false);
+
+        }
+        if (id.equals("butThu")){
+            butMon.setVisible(false);
+            butTue.setVisible(false);
+            butWed.setVisible(false);
+            butThu.setVisible(true);
+            butFri.setVisible(false);
+            butSat.setVisible(false);
+            butSun.setVisible(false);
+
+        }
+        if (id.equals("butFri")){
+            butMon.setVisible(false);
+            butTue.setVisible(false);
+            butWed.setVisible(false);
+            butThu.setVisible(false);
+            butFri.setVisible(true);
+            butSat.setVisible(false);
+            butSun.setVisible(false);
+
+        }
+        if (id.equals("butSat")){
+            butMon.setVisible(false);
+            butTue.setVisible(false);
+            butWed.setVisible(false);
+            butThu.setVisible(false);
+            butFri.setVisible(false);
+            butSat.setVisible(true);
+            butSun.setVisible(false);
+
+        }
+        if (id.equals("butSun")){
+            butMon.setVisible(false);
+            butTue.setVisible(false);
+            butWed.setVisible(false);
+            butThu.setVisible(false);
+            butFri.setVisible(false);
+            butSat.setVisible(false);
+            butSun.setVisible(true);
+
+        }
+
 
     }
-    @FXML
-    public void butDayWed(ActionEvent event) {
-        //label1.setVisible(false);
-
-    }
-    @FXML
-    public void butDayThu(ActionEvent event) {
-        //label1.setVisible(false);
-
-    }
-    @FXML
-    public void butDayFri(ActionEvent event) {
-        //label1.setVisible(false);
-
-    }
-    @FXML
-    public void butDaySat(ActionEvent event) {
-        //label1.setVisible(false);
-
-    }
-    @FXML
-    public void butDaySun(ActionEvent event) {
-        //label1.setVisible(false);
-
-    }
-    @FXML
-    public void showTable(ActionEvent event) {
-        //Creating a Grid Pane
-        GridPane gridPane = new GridPane();
-    } // Kocham Dawida i go rucham jak spi
 
 }
