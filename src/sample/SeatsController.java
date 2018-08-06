@@ -47,7 +47,7 @@ Main mejn = new Main();
 
     @FXML
     public Button butSun;
-
+//dupadupa
     @FXML
 
     public void handleButton(ActionEvent event){
